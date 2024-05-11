@@ -1,0 +1,23 @@
+[33mcommit fdf50f3cb3ab623e30690040091e56c91b7bf81a[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/html[m[33m, [m[1;32mhtml[m[33m)[m
+Author: Anjani <kanjani142@gmail.com>
+Date:   Sat May 11 18:13:18 2024 +0530
+
+    Added Features to HTML
+
+[1mdiff --git a/hello.html b/hello.html[m
+[1mindex f3f9b81..10bd8f7 100644[m
+[1m--- a/hello.html[m
+[1m+++ b/hello.html[m
+[36m@@ -7,5 +7,11 @@[m
+ </head>[m
+ <body>[m
+     <h1>Hello World</h1>[m
+[32m+[m[32m    <form >[m
+[32m+[m[32m        <label for="name">Name: </label><br>[m
+[32m+[m[32m        <input type="text" name="Name"><br>[m
+[32m+[m[32m        <button type="submit">Submit</button>[m
+[32m+[m[32m        <button type="reset">Reset</button>[m
+[32m+[m[32m    </form>[m
+ </body>[m
+ </html>[m
+\ No newline at end of file[m
